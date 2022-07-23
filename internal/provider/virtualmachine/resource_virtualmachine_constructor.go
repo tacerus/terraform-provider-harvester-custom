@@ -249,7 +249,7 @@ func Creator(c *client.Client, namespace, name string) util.Constructor {
 }
 
 func Updater(c *client.Client, vm *kubevirtv1.VirtualMachine) util.Constructor {
-	//vm.Spec.Template.Spec.Domain.Firmware.Bootloader.EFI = []kubevirtv1.EFI{}
+	vm.Spec.Template.Spec.Domain.Firmware = &kubevirtv1.Firmware{}
 	vm.Spec.Template.Spec.Networks = []kubevirtv1.Network{}
 	vm.Spec.Template.Spec.Domain.Devices.Interfaces = []kubevirtv1.Interface{}
 	vm.Spec.Template.Spec.Domain.Devices.Disks = []kubevirtv1.Disk{}
