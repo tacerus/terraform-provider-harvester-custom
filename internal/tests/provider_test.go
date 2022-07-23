@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/tacerus/tf-harvester-custom/internal/provider"
+	"github.com/tacerus/terraform-provider-harvester-custom/internal/provider"
 )
 
 var (

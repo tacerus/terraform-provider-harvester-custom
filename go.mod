@@ -1,4 +1,4 @@
-module github.com/tacerus/tf-harvester-custom
+module github.com/tacerus/terraform-provider-harvester-custom
 
 go 1.18
 

@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"k8s.io/apimachinery/pkg/util/validation"
 
-	"github.com/tacerus/tf-harvester-custom/pkg/constants"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/constants"
 )
 
 func NamespacedSchemaWrap(s map[string]*schema.Schema, system bool) {

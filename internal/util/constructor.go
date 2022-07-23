@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/tacerus/tf-harvester-custom/pkg/constants"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/constants"
 )
 
 type Constructor interface {

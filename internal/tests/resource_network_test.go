@@ -11,9 +11,9 @@ import (
 	nadv1 "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/apis/k8s.cni.cncf.io/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/tacerus/tf-harvester-custom/pkg/client"
-	"github.com/tacerus/tf-harvester-custom/pkg/constants"
-	"github.com/tacerus/tf-harvester-custom/pkg/helper"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/client"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/constants"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/helper"
 )
 
 const (

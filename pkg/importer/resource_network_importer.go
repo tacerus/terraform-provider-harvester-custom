@@ -8,8 +8,8 @@ import (
 	"github.com/harvester/harvester/pkg/webhook/resources/network"
 	nadv1 "github.com/k8snetworkplumbingwg/network-attachment-definition-client/pkg/apis/k8s.cni.cncf.io/v1"
 
-	"github.com/tacerus/tf-harvester-custom/pkg/constants"
-	"github.com/tacerus/tf-harvester-custom/pkg/helper"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/constants"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/helper"
 )
 
 func ResourceNetworkStateGetter(obj *nadv1.NetworkAttachmentDefinition) (*StateGetter, error) {

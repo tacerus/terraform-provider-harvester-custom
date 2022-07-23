@@ -5,8 +5,8 @@ import (
 
 	harvsterv1 "github.com/harvester/harvester/pkg/apis/harvesterhci.io/v1beta1"
 
-	"github.com/tacerus/tf-harvester-custom/internal/util"
-	"github.com/tacerus/tf-harvester-custom/pkg/constants"
+	"github.com/tacerus/terraform-provider-harvester-custom/internal/util"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/constants"
 )
 
 var (

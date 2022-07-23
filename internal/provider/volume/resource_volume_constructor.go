@@ -6,9 +6,9 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	"k8s.io/utils/pointer"
 
-	"github.com/tacerus/tf-harvester-custom/internal/util"
-	"github.com/tacerus/tf-harvester-custom/pkg/constants"
-	"github.com/tacerus/tf-harvester-custom/pkg/helper"
+	"github.com/tacerus/terraform-provider-harvester-custom/internal/util"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/constants"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/helper"
 )
 
 var (

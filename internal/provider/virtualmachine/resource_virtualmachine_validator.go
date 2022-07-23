@@ -10,7 +10,7 @@ import (
 	"gopkg.in/yaml.v2"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/tacerus/tf-harvester-custom/pkg/helper"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/helper"
 )
 
 const (

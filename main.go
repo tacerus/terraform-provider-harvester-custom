@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
 
-	"github.com/tacerus/tf-harvester-custom/internal/provider"
+	"github.com/tacerus/terraform-provider-harvester-custom/internal/provider"
 )
 
 //go:generate terraform fmt -recursive ./examples/

@@ -4,8 +4,8 @@ import (
 	harvsterv1 "github.com/harvester/harvester/pkg/apis/harvesterhci.io/v1beta1"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/tacerus/tf-harvester-custom/pkg/constants"
-	"github.com/tacerus/tf-harvester-custom/pkg/helper"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/constants"
+	"github.com/tacerus/terraform-provider-harvester-custom/pkg/helper"
 )
 
 func ResourceImageStateGetter(obj *harvsterv1.VirtualMachineImage) (*StateGetter, error) {
