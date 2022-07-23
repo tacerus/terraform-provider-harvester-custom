@@ -10,9 +10,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	kubevirtv1 "kubevirt.io/api/core/v1"
 
-	"github.com/harvester/terraform-provider-harvester/pkg/client"
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
-	"github.com/harvester/terraform-provider-harvester/pkg/helper"
+	"github.com/tacerus/tf-harvester-custom/pkg/client"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/pkg/helper"
 )
 
 const (

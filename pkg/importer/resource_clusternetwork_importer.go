@@ -3,8 +3,8 @@ package importer
 import (
 	harvsternetworkv1 "github.com/harvester/harvester-network-controller/pkg/apis/network.harvesterhci.io/v1beta1"
 
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
-	"github.com/harvester/terraform-provider-harvester/pkg/helper"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/pkg/helper"
 )
 
 func ResourceClusterNetworkStateGetter(obj *harvsternetworkv1.ClusterNetwork) (*StateGetter, error) {

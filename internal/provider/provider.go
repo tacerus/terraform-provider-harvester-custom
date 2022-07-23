@@ -6,14 +6,14 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 
-	"github.com/harvester/terraform-provider-harvester/internal/provider/clusternetwork"
-	"github.com/harvester/terraform-provider-harvester/internal/provider/image"
-	"github.com/harvester/terraform-provider-harvester/internal/provider/keypair"
-	"github.com/harvester/terraform-provider-harvester/internal/provider/network"
-	"github.com/harvester/terraform-provider-harvester/internal/provider/virtualmachine"
-	"github.com/harvester/terraform-provider-harvester/internal/provider/volume"
-	"github.com/harvester/terraform-provider-harvester/pkg/client"
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/internal/provider/clusternetwork"
+	"github.com/tacerus/tf-harvester-custom/internal/provider/image"
+	"github.com/tacerus/tf-harvester-custom/internal/provider/keypair"
+	"github.com/tacerus/tf-harvester-custom/internal/provider/network"
+	"github.com/tacerus/tf-harvester-custom/internal/provider/virtualmachine"
+	"github.com/tacerus/tf-harvester-custom/internal/provider/volume"
+	"github.com/tacerus/tf-harvester-custom/pkg/client"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
 )
 
 func Provider() *schema.Provider {

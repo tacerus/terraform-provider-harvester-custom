@@ -1,16 +1,17 @@
 package virtualmachine
 
 import (
-	"github.com/harvester/harvester/pkg/builder"
+	//"github.com/harvester/harvester/pkg/builder"
+	"github.com/tacerus/harvester-custom/pkg/builder"
 	harvesterutil "github.com/harvester/harvester/pkg/util"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/utils/pointer"
 	kubevirtv1 "kubevirt.io/api/core/v1"
 
-	"github.com/harvester/terraform-provider-harvester/internal/util"
-	"github.com/harvester/terraform-provider-harvester/pkg/client"
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
-	"github.com/harvester/terraform-provider-harvester/pkg/helper"
+	"github.com/tacerus/tf-harvester-custom/internal/util"
+	"github.com/tacerus/tf-harvester-custom/pkg/client"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/pkg/helper"
 
 )
 

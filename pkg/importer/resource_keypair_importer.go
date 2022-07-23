@@ -4,8 +4,8 @@ import (
 	harvsterv1 "github.com/harvester/harvester/pkg/apis/harvesterhci.io/v1beta1"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
-	"github.com/harvester/terraform-provider-harvester/pkg/helper"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/pkg/helper"
 )
 
 func ResourceKeyPairStateGetter(obj *harvsterv1.KeyPair) (*StateGetter, error) {

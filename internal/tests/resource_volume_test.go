@@ -11,9 +11,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/harvester/terraform-provider-harvester/pkg/client"
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
-	"github.com/harvester/terraform-provider-harvester/pkg/helper"
+	"github.com/tacerus/tf-harvester-custom/pkg/client"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/pkg/helper"
 )
 
 const (

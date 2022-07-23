@@ -8,8 +8,8 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/harvester/terraform-provider-harvester/pkg/client"
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/pkg/client"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
 )
 
 func DataSourceVirtualMachine() *schema.Resource {

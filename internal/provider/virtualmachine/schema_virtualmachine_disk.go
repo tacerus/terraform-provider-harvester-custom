@@ -5,8 +5,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
 
-	"github.com/harvester/terraform-provider-harvester/internal/util"
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/internal/util"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
 )
 
 func resourceDiskSchema() map[string]*schema.Schema {

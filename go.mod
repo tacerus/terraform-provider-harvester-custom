@@ -1,4 +1,4 @@
-module github.com/harvester/terraform-provider-harvester
+module github.com/tacerus/tf-harvester-custom
 
 go 1.18
 
@@ -49,6 +49,7 @@ replace (
 	kubevirt.io/containerized-data-importer-api => github.com/kubevirt/containerized-data-importer-api v1.47.0
 	sigs.k8s.io/cluster-api => sigs.k8s.io/cluster-api v1.1.4
 	sigs.k8s.io/structured-merge-diff => sigs.k8s.io/structured-merge-diff v0.0.0-20190302045857-e85c7b244fd2
+
 )
 
 require (
@@ -59,6 +60,7 @@ require (
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.6.1
 	github.com/k8snetworkplumbingwg/network-attachment-definition-client v0.0.0-20200331171230-d50e42f2b669
 	github.com/rancher/wrangler v1.0.1-0.20220520195731-8eeded9bae2a
+	github.com/tacerus/harvester-custom v0.0.2-pre
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.24.0
 	k8s.io/apimachinery v0.24.0
@@ -66,6 +68,8 @@ require (
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed
 	kubevirt.io/api v0.0.0-20220430221853-33880526e414
 )
+
+require github.com/harvester/terraform-provider-harvester v0.4.0
 
 require (
 	cloud.google.com/go v0.99.0 // indirect

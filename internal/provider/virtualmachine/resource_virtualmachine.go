@@ -15,11 +15,11 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 	kubevirtv1 "kubevirt.io/api/core/v1"
 
-	"github.com/harvester/terraform-provider-harvester/internal/util"
-	"github.com/harvester/terraform-provider-harvester/pkg/client"
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
-	"github.com/harvester/terraform-provider-harvester/pkg/helper"
-	"github.com/harvester/terraform-provider-harvester/pkg/importer"
+	"github.com/tacerus/tf-harvester-custom/internal/util"
+	"github.com/tacerus/tf-harvester-custom/pkg/client"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/pkg/helper"
+	"github.com/tacerus/tf-harvester-custom/pkg/importer"
 )
 
 const (

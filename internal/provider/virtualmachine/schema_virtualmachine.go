@@ -7,8 +7,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
 	kubevirtv1 "kubevirt.io/api/core/v1"
 
-	"github.com/harvester/terraform-provider-harvester/internal/util"
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/internal/util"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
 )
 
 func Schema() map[string]*schema.Schema {

@@ -3,8 +3,8 @@ package keypair
 import (
 	harvsterv1 "github.com/harvester/harvester/pkg/apis/harvesterhci.io/v1beta1"
 
-	"github.com/harvester/terraform-provider-harvester/internal/util"
-	"github.com/harvester/terraform-provider-harvester/pkg/constants"
+	"github.com/tacerus/tf-harvester-custom/internal/util"
+	"github.com/tacerus/tf-harvester-custom/pkg/constants"
 )
 
 var (
