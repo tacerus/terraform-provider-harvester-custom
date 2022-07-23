@@ -4,6 +4,7 @@ const (
 	ResourceTypeVirtualMachine = "harvester_virtualmachine"
 
 	FieldVirtualMachineMachineType        = "machine_type"
+	FieldVirtualMachineEFIBoot            = "efi_secureboot"
 	FieldVirtualMachineHostname           = "hostname"
 	FieldVirtualMachineRestartAfterUpdate = "restart_after_update"
 	FieldVirtualMachineStart              = "start"

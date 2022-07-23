@@ -11,6 +11,7 @@ import (
 	"github.com/harvester/terraform-provider-harvester/pkg/client"
 	"github.com/harvester/terraform-provider-harvester/pkg/constants"
 	"github.com/harvester/terraform-provider-harvester/pkg/helper"
+
 )
 
 const (
@@ -66,6 +67,13 @@ func (c *Constructor) Setup() util.Processors {
 			Field: constants.FieldVirtualMachineMachineType,
 			Parser: func(i interface{}) error {
 				vmBuilder.MachineType(i.(string))
+				return nil
+			},
+		},
+		{
+			Field: constants.FieldVirtualMachineEFIBoot,
+			Parser: func(i interface{}) error {
+				vmBuilder.EFIBoot(i.(bool))
 				return nil
 			},
 		},
@@ -241,6 +249,7 @@ func Creator(c *client.Client, namespace, name string) util.Constructor {
 }
 
 func Updater(c *client.Client, vm *kubevirtv1.VirtualMachine) util.Constructor {
+	//vm.Spec.Template.Spec.Domain.Firmware.Bootloader.EFI = []kubevirtv1.EFI{}
 	vm.Spec.Template.Spec.Networks = []kubevirtv1.Network{}
 	vm.Spec.Template.Spec.Domain.Devices.Interfaces = []kubevirtv1.Interface{}
 	vm.Spec.Template.Spec.Domain.Devices.Disks = []kubevirtv1.Disk{}

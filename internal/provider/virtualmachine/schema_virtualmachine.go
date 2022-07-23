@@ -18,6 +18,12 @@ func Schema() map[string]*schema.Schema {
 			Optional: true,
 			Computed: true,
 		},
+		constants.FieldVirtualMachineEFIBoot: {
+			Type:     schema.TypeBool,
+			Optional: true,
+			Computed: false,
+			Default:  false,
+		},
 		constants.FieldVirtualMachineHostname: {
 			Type:     schema.TypeString,
 			Optional: true,

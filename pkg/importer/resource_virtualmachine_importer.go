@@ -30,6 +30,11 @@ func (v *VMImporter) MachineType() string {
 	return v.VirtualMachine.Spec.Template.Spec.Domain.Machine.Type
 }
 
+func (v *VMImporter) EFIBoot() *bool {
+	// there is likely something missing here
+	return v.VirtualMachine.Spec.Template.Spec.Domain.Firmware.Bootloader.EFI.SecureBoot
+}
+
 func (v *VMImporter) HostName() string {
 	return v.VirtualMachine.Spec.Template.Spec.Hostname
 }
@@ -328,6 +333,7 @@ func ResourceVirtualMachineStateGetter(vm *kubevirtv1.VirtualMachine, vmi *kubev
 			constants.FieldVirtualMachineMemory:           vmImporter.Memory(),
 			constants.FieldVirtualMachineHostname:         vmImporter.HostName(),
 			constants.FieldVirtualMachineMachineType:      vmImporter.MachineType(),
+			constants.FieldVirtualMachineEFIBoot:          vmImporter.EFIBoot(),
 			constants.FieldVirtualMachineRunStrategy:      string(runStrategy),
 			constants.FieldVirtualMachineNetworkInterface: networkInterface,
 			constants.FieldVirtualMachineDisk:             disk,
