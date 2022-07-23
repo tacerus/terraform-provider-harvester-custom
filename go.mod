@@ -69,8 +69,6 @@ require (
 	kubevirt.io/api v0.0.0-20220430221853-33880526e414
 )
 
-require github.com/harvester/terraform-provider-harvester v0.4.0
-
 require (
 	cloud.google.com/go v0.99.0 // indirect
 	cloud.google.com/go/storage v1.10.0 // indirect

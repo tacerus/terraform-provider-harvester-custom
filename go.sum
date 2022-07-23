@@ -998,8 +998,6 @@ github.com/harvester/harvester v0.0.2-0.20220706071753-a926a44e1404/go.mod h1:0a
 github.com/harvester/harvester-network-controller v0.1.7/go.mod h1:Pm6+8UMelDhaSnpS+OPr8kayR0VOB+HLFd2Ry/1EvJI=
 github.com/harvester/harvester-network-controller v0.2.7 h1:a20FAUbDEo6lrZq+wAg6lHMYgWRy6vATt+t3kkMXpIY=
 github.com/harvester/harvester-network-controller v0.2.7/go.mod h1:QAB/LXyg7GQjfQlm3BvS70HKBlpYa/UIK7z4Q7afTd8=
-github.com/harvester/terraform-provider-harvester v0.4.0 h1:kjFxofiyLaLJc0blkUJ8pkuYQ6RDMU4BMaYjmzfrBhc=
-github.com/harvester/terraform-provider-harvester v0.4.0/go.mod h1:gH2Z/k7IH0dIUjDOBHfn/6FGuxAKAoBZn/M/zJ0X7LU=
 github.com/hashicorp/consul/api v1.1.0/go.mod h1:VmuI/Lkw1nC05EYQWNKwWGbkg+FbDBtguAZLlVdkD9Q=
 github.com/hashicorp/consul/api v1.3.0/go.mod h1:MmDNSzIMUjNpY/mQ398R4bk2FnqQLoPndWW5VkKPlCE=
 github.com/hashicorp/consul/api v1.10.1/go.mod h1:XjsvQN+RJGWI2TWy1/kqaE16HrR2J/FWgkYjdZQsX9M=
